@@ -222,7 +222,7 @@ main p {
 /* sidebar */
 aside {
     padding: 20px;
-    widht: 300px;
+    width: 300px;
     float: left;
 }
 
@@ -231,9 +231,7 @@ h3 {
 }
 
 aside p {
-    display: inline-block;
-    float: left;
-
+    display: inline;
 }
 
 /* CLEARFIX */
