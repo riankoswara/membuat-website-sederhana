@@ -230,9 +230,25 @@ h3 {
     padding-bottom: 10px;
 }
 
-aside p {
-    display: inline;
+aside img {
+    float: left;
+    width: 70px;
+    padding-right: 10px;
 }
+
+aside p {
+    text-align: justify;
+    font-size: 8px/10px arial, sans-serif;
+}
+
+/* footer */
+.footer p {
+    background-color: salmon;
+    padding: 5px;
+    text-align: center;
+    font: 10px/20px arial, verdana, sans-serif;
+}
+
 
 /* CLEARFIX */
 /**
