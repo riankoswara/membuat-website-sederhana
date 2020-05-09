@@ -142,11 +142,43 @@ body {
     background-color: #333333;
 }
 
+/* topbar */
+.topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    height: 40px;
+    background-color: lightskyblue;
+    border-bottom: salmon solid 3px;
+}
+
+.topbar ul li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 5px 5px 10px;
+}
+
 /* container */
 .container {
     width: 960px;
-    margin: auto;
+    margin: 70px auto;
     background-color: #eaeaea;
+    position: relative;
+}
+
+
+/* ribbon twitter */
+.ribbon a {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/twitter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -22px;
+    right: -27px;
 }
 
 /* judul */
@@ -166,7 +198,7 @@ body {
     margin: auto;
 }
 
-ul li {
+.menu ul li {
     display: inline-block;
     padding: 20px 10px 20px 1px;
     margin: 5px 5px 5px 10px;
